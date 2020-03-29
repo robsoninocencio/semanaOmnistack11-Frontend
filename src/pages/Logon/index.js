@@ -8,8 +8,9 @@ import heroesImg from '../../assets/heroes.png';
 export default function Logon() {
   return (
     <div className="logon-container">
+
       <section className="form">
-      <img src={logoImg} alt="Logo"/>
+        <img src={logoImg} alt="Logo"/>
       </section>
 
       <img src={heroesImg} alt="Heroes"/>
