@@ -27,8 +27,6 @@ export default function NewIncident() {
       value,
     };
 
-    console.log(title, description, value);
-
     try {
       await api.post('incidents', data, {
         headers: {
